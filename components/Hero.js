@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 const Hero = () => {
   return (
@@ -8,11 +10,33 @@ const Hero = () => {
             <h1 className=' text-7xl font-semibold leading-tight'>Find your new style with <span className='text-[#3865F3]'>Veshion</span></h1>
             <p className='w-[500px] text-[#94959B] text-[20px]'>Buy something has never been easy now, let's download Veshion now and get 30% off</p>
             <div className='flex flex-row gap-4'>
-                <img src='assets/android.svg' className='cursor-pointer pt-8'/>
-                <img src='assets/android.svg' className='cursor-pointer pt-8'/>
+            <Image
+               className='cursor-pointer'
+        src="/assets/android.svg"
+        alt="Android"
+        height={73}
+        width={220}
+      />
+      <Image
+               className='cursor-pointer'
+        src="/assets/android.svg"
+        alt="Apple"
+        height={73}
+        width={220}
+      />
             </div>
         </div>
-        <img src='assets/right.svg' className='h-[620px] hidden lg:block '/>
+        <div className='hidden lg:block'>
+        <Image
+
+        src="/assets/right.svg"
+        alt="Apple"
+        width={732.7}
+        height={802}
+
+      />
+        </div>
+        
     </div>
 
     </div>
