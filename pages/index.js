@@ -23,20 +23,37 @@ export default function Home() {
         <div className='flex flex-col gap-10 lg:flex-row justify-between w-full'>
 
           <div className='flex flex-col items-center justify-center '>
-            <img src='assets/icone-1.svg' className='h-[140px]'/>
+            
+            <Image
+               className='cursor-pointer'
+        src="/assets/icone-1.svg"
+        alt="Logo"
+        height={140}
+        width={140}
+      />
             <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
             <p>Free delivery up to $7 to all addresses</p>
           </div>
 
           <div className='flex flex-col items-center justify-center '>
-            <img src='assets/icone-1.svg' className='h-[140px]'/>
-            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
+          <Image
+               className='cursor-pointer'
+        src="/assets/icone-1.svg"
+        alt="Logo"
+        height={140}
+        width={140}
+      />            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
             <p>Free delivery up to $7 to all addresses</p>
           </div>
 
           <div className='flex flex-col items-center justify-center '>
-            <img src='assets/icone-1.svg' className='h-[140px]'/>
-            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
+          <Image
+               className='cursor-pointer'
+        src="/assets/icone-1.svg"
+        alt="Logo"
+        height={140}
+        width={140}
+      />            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
             <p>Free delivery up to $7 to all addresses</p>
           </div>
 
