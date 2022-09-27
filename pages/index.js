@@ -1,6 +1,8 @@
 import Head from 'next/head'
 
 import Header from '../components/Header'
+import Hero from '../components/Hero'
+import Container from '../components/Container'
 
 
 export default function Home() {
@@ -13,6 +15,35 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
+      <Hero/>
+      <Container>
+        <h1 className='text-4xl font-bold pb-[24px]'>New Features</h1>
+        <p className='text-xl text-[#94959B] pb-[64px] text-center'>We have release some new features in the Veshion. Check it out now guys</p>
+
+        <div className='flex flex-col gap-10 lg:flex-row justify-between w-full'>
+
+          <div className='flex flex-col items-center justify-center '>
+            <img src='assets/icone-1.svg' className='h-[140px]'/>
+            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
+            <p>Free delivery up to $7 to all addresses</p>
+          </div>
+
+          <div className='flex flex-col items-center justify-center '>
+            <img src='assets/icone-1.svg' className='h-[140px]'/>
+            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
+            <p>Free delivery up to $7 to all addresses</p>
+          </div>
+
+          <div className='flex flex-col items-center justify-center '>
+            <img src='assets/icone-1.svg' className='h-[140px]'/>
+            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
+            <p>Free delivery up to $7 to all addresses</p>
+          </div>
+
+
+
+        </div>
+      </Container>
     
   
 
