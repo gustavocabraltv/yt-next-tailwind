@@ -1,3 +1,5 @@
+
+import Image from 'next/image'
 import React from 'react'
 import Button from './Button'
 
@@ -8,7 +10,13 @@ const Header = () => {
 
         <div className='flex h-24 max-w-[1140px] justify-between w-full items-center px-8 md:px-4 lg:px-0'>
             <div>
-               <img src='/assets/Logo.svg' className='h-[56px] cursor-pointer'/>
+               <Image
+               className='cursor-pointer'
+        src="/assets/Logo.svg"
+        alt="Logo"
+        height={56}
+        width={199}
+      />
             </div>
             <div className='hidden lg:block'>
               <ul className='flex gap-8 font-semibold'>
