@@ -32,7 +32,7 @@ export default function Home() {
         width={140}
       />
             <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
-            <p>Free delivery up to $7 to all addresses</p>
+            <p>Free delivery up to 7 to all addresses</p>
           </div>
 
           <div className='flex flex-col items-center justify-center '>
@@ -43,7 +43,7 @@ export default function Home() {
         height={140}
         width={140}
       />            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
-            <p>Free delivery up to $7 to all addresses</p>
+            <p>Free delivery up to 7 to all addresses</p>
           </div>
 
           <div className='flex flex-col items-center justify-center '>
@@ -54,7 +54,7 @@ export default function Home() {
         height={140}
         width={140}
       />            <h2 className='pb-[16px] text-2xl font-semibold pt-[64px]'>Free Delivery</h2>
-            <p>Free delivery up to $7 to all addresses</p>
+            <p>Free delivery up to 7 to all addresses</p>
           </div>
 
 
